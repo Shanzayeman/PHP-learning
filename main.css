@@ -1,0 +1,321 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*#row{
+    overflow: auto;
+} Only for the upper navbar flow scroll */
+#block {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(43, 40, 40);
+    width: 1930px;
+    height: 38px;
+    position: fixed;
+}
+
+.all {
+    float: left;
+    display: block;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.all a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-weight: 500;
+}
+
+.all:hover {
+    background-color: rgb(56, 53, 53);
+}
+
+.all:active {
+    background-color: rgb(15, 184, 15);
+}
+
+.one {
+    background-color: rgb(31, 165, 31);
+}
+
+.one:hover {
+    background-color: rgb(18, 184, 18);
+}
+
+#vertnav {
+    width: 20%;
+    background-color: rgb(229, 233, 243);
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    float: left;
+    position: fixed;
+    margin-top: 40px;
+}
+
+#php {
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+#nav {
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.same {
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.same a {
+    text-decoration: none;
+    color: black;
+}
+
+.same:hover {
+    background-color: rgb(100, 99, 99);
+}
+
+.same:active {
+    background-color: rgb(31, 165, 31);
+}
+
+.same:active a {
+    color: white;
+}
+
+.two {
+    background-color: rgb(48, 155, 48);
+}
+
+.two:hover {
+    background-color: rgb(48, 155, 48);
+}
+
+.two a {
+    color: white;
+}
+
+#home {
+    width: 80%;
+    background-color: white;
+    height: 600px;
+    float: right;
+}
+
+#han {
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 90px;
+    padding-left: 30px;
+}
+
+#btn1 {
+    border: 1px solid white;
+    width: 95%;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-top: -20px;
+}
+
+.btn2 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 90px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    border-radius: 7px;
+    float: left;
+    cursor: pointer;
+}
+
+.btn3 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 90px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    border-radius: 7px;
+    float: right;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: rgb(37, 190, 50);
+}
+
+.btn3:hover {
+    background-color: rgb(37, 190, 50);
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn3 a {
+    text-decoration: none;
+    color: white;
+}
+
+#yun {
+    width: 99%;
+    height: 250px;
+    background-color: rgb(203, 217, 228);
+    border: 1px solid rgb(191, 245, 138);
+    margin: 0px;
+}
+
+#learn {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#as {
+    padding-left: 30px;
+    line-height: 40px;
+}
+
+.btn4 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 250px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    float: left;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.btn4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn4:hover {
+    background-color: rgb(65, 199, 76);
+}
+
+#hr1 {
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+#second {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#third {
+    font-weight: 0;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+#exam {
+    background-color: rgb(229, 233, 243);
+    width: 90%;
+    height: 400px;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+#ple {
+    width: 99%;
+    height: 60px;
+    border: 1px solid rgb(229, 233, 243);
+}
+
+#ls {
+    font-weight: 0;
+    font-size: 27px;
+    padding-left: 40px;
+    float: left;
+}
+
+.btn5 {
+    background-color: rgb(32, 30, 30);
+    border: 1px solid rgb(34, 33, 33);
+    height: 40px;
+    width: 250px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    float: right;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.btn5 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn5:hover {
+    background-color: rgb(44, 46, 44);
+}
+
+#done {
+    width: 90%;
+    height: 230px;
+    border: 1px solid white;
+    margin-top: 100px;
+    margin-left: 5%;
+    background-color: white;
+    border-left: 3px solid rgb(72, 173, 72);
+}
+
+.btn7 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 150px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    float: left;
+    cursor: pointer;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.btn7 a {
+    text-decoration: none;
+    color: white;
+}
+#last{
+    margin-left: 40px;
+    font-weight: 800;
+}
